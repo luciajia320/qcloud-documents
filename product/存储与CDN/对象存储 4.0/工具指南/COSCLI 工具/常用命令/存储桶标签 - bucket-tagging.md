@@ -19,7 +19,7 @@ bucket-tagging 命令包含以下可选 flag：
 ```
 ./coscli bucket-tagging --method put cos://<BucketName-APPID> key1#value1 key2#value2
 ```
-其中，`key#value`表示标签键值对Key-Value，key和value之间以井号（#）分割。若存储桶未设置标签，此命令将为存储桶添加指定的标签；若存储桶已设置标签，此命令将覆盖原油的标签。
+其中，`key#value`表示标签键值对Key-Value，key和value之间以井号（#）分割。若存储桶未设置标签，此命令将为存储桶添加指定的标签；若存储桶已设置标签，此命令将覆盖原有标签。
 
 ### 使用示例
 为存储桶 examplebucket配置两组标签，其中一组标签的key为1，value为111，一组标签的key为2，value为222。命令如下，
